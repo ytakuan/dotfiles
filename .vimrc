@@ -44,7 +44,7 @@ NeoBundleCheck
 
 autocmd VimEnter * execute 'source' expand('<sfile>')
 
-let g:yanktmp_file = $HOME + '/.vim/tmp/yanktmp'
+let g:yanktmp_file = $HOME . "/.vim/tmp/yanktmp"
 map <silent> sy :call YanktmpYank()<cr>
 map <silent> sp :call YanktmpPaste_p()<cr>
 map <silent> sP :call YanktmpPaste_P()<cr>
